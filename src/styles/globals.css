@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-blue underline cursor-pointer
+}
+
+h1 {
+  @apply mb-6 text-neutral-1 font-bold text-4xl uppercase
+}
